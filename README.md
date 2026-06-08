@@ -69,44 +69,29 @@ Hệ thống được chia thành 3 lớp:
 
 ---
 
-# Cấu trúc thư mục đề xuất
+# Cách sử dụng
 
-```text
-/
-├── README.md
-├── BUTLER.md
-├── DATA_MODEL.md
-├── OPERATING_RULES.md
-│
-├── events/
-├── assets/
-├── liabilities/
-├── receivables/
-├── goals/
-├── journals/
-├── decisions/
-│
-└── snapshots/
-    ├── portfolio.md
-    ├── active_goals.md
-    └── outstanding_receivables.md
-```
+Wealth Butler không phụ thuộc vào một AI cụ thể.
 
----
+Bạn có thể sử dụng với:
 
-# Sử dụng với Cline
+- Cline
+- Cursor
+- GitHub Copilot
+- Claude Code
+- Antigravity
+-  Codex
+  
+Bất kỳ AI Agent nào có thể:
+- đọc file trong workspace
+- làm việc với Markdown
+- chỉnh sửa file
 
-Mở thư mục dự án trong VSCode.
-
-Đảm bảo các file sau tồn tại:
-
-* BUTLER.md
-* DATA_MODEL.md
-* OPERATING_RULES.md
-
-Sau đó mở một phiên chat mới trong Cline và sử dụng prompt sau.
+Độ thông minh của Butler phụ thuộc vào mô hình AI phía sau:
 
 # Prompt khởi động
+
+Mở bất kì agent nào và nhập prompt khởi động, enter, sau đó chat với AI Agent như bình thường.
 
 ```text
 Act as the Wealth Butler.
